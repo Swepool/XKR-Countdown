@@ -1,0 +1,45 @@
+body {
+    font-family: 'M PLUS Code Latin', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #1d1d1d;
+}
+
+#goal {
+    display: flex;
+    align-items: center;
+    height: 10px;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 30px;
+    width: 300px;
+    padding: 2px;
+}
+
+#progress {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    background-color: #fff;
+    height: 10px;
+    border-radius: 10em;
+    width: 8%;
+    transition: all 1s;
+}
+
+#time {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#percentage {
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
