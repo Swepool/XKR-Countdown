@@ -1,6 +1,6 @@
 
 //Your node url (port and /getinfo)
-const url = 'http://blocksum.org:11898/getinfo'
+const url = 'https://blocksum.org/api/getinfo'
 
 // Set goal to reach
 const goal = 1000000
@@ -10,6 +10,7 @@ const percentageText = document.getElementById('percentage')
 const progressBar = document.getElementById('progress')
 const timeText = document.getElementById('time')
 
+//***Start***
 //Get height from node
 function start() {
     fetch(url)
@@ -36,7 +37,7 @@ function render(height, goal) {
     progressBar.style.width = percentageToGoal
     timeText.textContent = daysLeft
 
-    //just to check
+    //Just to check
     console.log('Success')
 }
 
